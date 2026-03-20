@@ -101,6 +101,8 @@ Compose Previews are used for rapid UI component development, allowing visualiza
 - **Version Catalog**: Dependency management in `gradle/libs.versions.toml`.
 - **Resources**: Shared resource management (images, strings) using the Compose Resources plugin.
 
+---
+
 ## 👀 Examples
 
 | iOS Light Mode | iOS Dark Mode | Android Light Mode | Android Dark Mode |

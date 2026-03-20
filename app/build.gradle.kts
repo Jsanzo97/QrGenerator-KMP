@@ -66,6 +66,9 @@ kotlin {
             implementation(libs.kotlinx.coroutines.test)
             implementation(libs.turbine)
             implementation(libs.kotest.assertions)
+            implementation(libs.robolectric)
+            implementation(libs.androidx.junit)
+            implementation(libs.mockk)
         }
 
         iosTest.dependencies {

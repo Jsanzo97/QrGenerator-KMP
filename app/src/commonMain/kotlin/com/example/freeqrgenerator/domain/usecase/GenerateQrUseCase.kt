@@ -28,7 +28,7 @@ class GenerateQrUseCaseImpl(
         foregroundColor = foregroundColor,
         backgroundColor = backgroundColor,
         cornersRadius = cornersRadius,
-        logoBytes = logoBytes
+        logoBytes = listOf(1, 2)
     )
 
 }

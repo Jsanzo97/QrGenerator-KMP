@@ -5,8 +5,8 @@ coreKtx = "1.18.0"
 lifecycleRuntimeKtx = "2.10.0"
 activityCompose = "1.13.0"
 composeBom = "2026.03.00"
-composePlugin = "1.10.2"
-composeMultiplatform = "1.10.2"
+composePlugin = "1.10.3"
+composeMultiplatform = "1.10.3"
 composeMaterial3Multiplatform = "1.9.0"
 composeMaterialIconsExtendedMultiplatform = "1.7.3"
 material3 = "1.4.0"
@@ -24,6 +24,8 @@ turbine = "1.2.1"
 kotest = "6.1.7"
 mokkery = "3.3.0"
 coroutines-test = "1.10.2"
+robolectric = "4.14.1"
+mockk = "1.13.12"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -61,6 +63,8 @@ compose-colorpicker = { module = "com.github.skydoves:colorpicker-compose", vers
 turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines-test" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
